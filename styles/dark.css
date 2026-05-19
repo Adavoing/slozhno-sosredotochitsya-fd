@@ -9,4 +9,32 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bk-image: url(../images/cover-image-dark.png);
+  --accent-color: #FF0070;
+  --accent_text-color: #FF0070;
+  --menu-color: #FF0070;
+  --link-color: #F1B2CE;
+  --bk-color: #000028;
+  --content-text-color: #F1B2CE;
+  --decor-color: #FF0070;
+  --text-focus: #DB00FF;
+  --menu-hover: rgba(255, 0, 112, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bk-image: url(../images/cover-image-dark.png);
+    --accent-color: #FF0070;
+    --accent_text-color: #FF0070;
+    --menu-color: #FF0070;
+    --link-color: #F1B2CE;
+    --bk-color: #000028;
+    --content-text-color: #F1B2CE;
+    --decor-color: #FF0070;
+    --text-focus: #DB00FF;
+    --menu-hover: rgba(255, 0, 112, 0.4);
+  }
+  .decorated-element {
+    display: block;
+  }
 }
