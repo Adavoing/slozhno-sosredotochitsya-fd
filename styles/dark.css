@@ -10,28 +10,28 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bk-image: url(../images/cover-image-dark.png);
-  --accent-color: #FF0070;
-  --accent_text-color: #FF0070;
-  --menu-color: #FF0070;
-  --link-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --accent_text-color: #ff0070;
+  --menu-color: #ff0070;
+  --link-color: #f1b2ce;
   --bk-color: #000028;
-  --content-text-color: #F1B2CE;
-  --decor-color: #FF0070;
-  --text-focus: #DB00FF;
+  --content-text-color: #f1b2ce;
+  --decor-color: #ff0070;
+  --text-focus: #db00ff;
   --menu-hover: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bk-image: url(../images/cover-image-dark.png);
-    --accent-color: #FF0070;
-    --accent_text-color: #FF0070;
-    --menu-color: #FF0070;
-    --link-color: #F1B2CE;
+    --accent-color: #ff0070;
+    --accent_text-color: #ff0070;
+    --menu-color: #ff0070;
+    --link-color: #f1b2ce;
     --bk-color: #000028;
-    --content-text-color: #F1B2CE;
-    --decor-color: #FF0070;
-    --text-focus: #DB00FF;
+    --content-text-color: #f1b2ce;
+    --decor-color: #ff0070;
+    --text-focus: #db00ff;
     --menu-hover: rgba(255, 0, 112, 0.4);
   }
   .decorated-element {

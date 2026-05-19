@@ -4,13 +4,9 @@
 */
 :root {
   --bk-image: url(../images/cover-image-dark.png);
-  --accent-color: #FF0070;
-  --content-text-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --content-text-color: #f1b2ce;
   --main-gap: 20px;
   --font-family_text: "IBM Plex Mono";
   --bk-color: #000028;
-} 
-
-@media (prefers-color-scheme: dark) {
-  
 }
