@@ -265,6 +265,9 @@
   .content_focused {
     gap: 10px;
   }
+  .content_advice {
+    gap: 10px;
+  }
 }
 
 .card {
